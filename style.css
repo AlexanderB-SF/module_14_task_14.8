@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+
+/* стили для login.php */
+
+.form {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    height: 300px;
+    width: 400px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid #978e36;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.input-text {
+    margin-bottom: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+.btn {
+    padding: 5px 20px;
+    cursor: pointer;
+}
+.text-form {
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.error {
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(250, 211, 37);
+    margin: 0 auto;
+}
+
+/* стили для index.php  */
+
+.sale {
+    background-image: url(https://i2.wp.com/shopaholicsretreat.com/wp-content/uploads/2018/12/cropped-Holiday-Sale-Banner-Background.png?ssl=1);
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    color: #fff;
+    vertical-align: center;
+}
+.bday {
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 0px;
+    background-color: #323232;
+    color: white;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+    width: 1200px;
+    margin: 0 auto;
+}
+.container {
+	flex: 1 0 auto;
+}
+.header {
+    height: 150px;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+}
+.signin {
+    color: #b32082;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.3);
+    transition: all linear 0.3s;
+}
+.signin:hover {
+    scale: 1.1;
+}
+.hello {
+    font-size: 20px;
+}
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.products-item {
+    width: 30%;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+.products-item:nth-child(3n) {
+    margin-right: 0;
+}
+.products-item > h4 {
+    margin-bottom: 10px;
+}
+.products-item > p {
+    margin-bottom: 10px;
+}
+.img-card {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 15px;
+}
+
+
+
+.footer {
+	flex: 0 0 auto;
+    height: 100px;
+    background-color: #373737;
+    padding-top: 20px;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+.footer-list_item {
+    margin: 0 8px;
+    text-align: center;
+
+}
+.footer-list_link {
+    color: #fff;
+}
